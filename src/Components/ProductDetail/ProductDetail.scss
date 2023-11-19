@@ -1,0 +1,97 @@
+.product-detail{
+    display: flex;
+    margin: 0 170px 80px;
+
+    .product-detail-left{
+        display: flex;
+        gap: 17px;
+    }
+    .product-detail-img-list{
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+
+        img{
+            height: 163px;
+        }
+    }
+    .product-main{
+        width: 437px;
+        height: 521px;
+    }
+
+    .product-detail-right{
+        display: flex;
+        margin: 0 70px;
+        flex-direction: column;
+
+        h1{
+            font-size: 40px;
+            font-weight: 700;
+            color: black;
+        }
+        .product-detail-right-star{
+            display: flex;
+            align-items: center;
+            margin-top: 13px;
+            gap: 5px;
+            color: black;
+            font-size: 16px;
+        }
+        .product-detail-prices{
+            display: flex;
+            margin: 40px 0;
+            gap: 30px;
+            font-size:  24px;
+            font-weight:  700;
+
+            .product-detail-price-old{
+             color:rgb(133, 133, 131);
+             text-decoration: line-through;   
+            }
+            .product-detail-price-new{
+                color: rgb(228, 92, 92);
+            }
+        }
+        .product-detail-size{
+            
+            
+            h1{
+                margin: 25px 0;
+                color: #656565;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            
+            div{
+                display: inline;
+                font-size: 20px;
+                font-weight: 500;
+                cursor: pointer;
+                margin-right: 10px;
+                border-radius: 3px;
+                border: 1px solid #292727;
+                background: #ccc;
+                padding: 8px 12px;
+            }
+        }
+        
+        button{
+            padding: 10px 20px;
+            width: 150px;
+            font-size:  16px;
+            font-weight:  600;
+            color: beige;
+            background:  #ff4141;
+            margin: 25px 0px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        button:active{
+            background: bisque;
+            color: #292727;
+        }
+
+    }
+}

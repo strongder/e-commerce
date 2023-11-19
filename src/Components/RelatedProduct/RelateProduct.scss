@@ -1,0 +1,19 @@
+.relateproduct{
+    margin: 0 170px;
+    text-align: center;
+    h2{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    hr{
+        width: 50%;
+       margin: auto;
+    }
+    .list-products {
+        display: flex;
+        gap: 20px;
+        margin: 64px 170px;
+        justify-content: center;
+        align-items: center;
+    }
+}
